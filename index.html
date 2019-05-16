@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculador JavaScript</title>
+  </head>
+  <body>
+    <form>
+      Número 1: <input id="num1" type="number" /> Número 2:
+      <input id="num2" type="number" /> <br /><br />
+      <input
+        type="button"
+        value="SUMAR"
+        onclick="operaciones('sumar'); return false;"
+      /><br />
+      <input
+        type="button"
+        value="RESTAR"
+        onclick="operaciones('restar'); return false;"
+      /><br />
+      <input
+        type="button"
+        value="MULTIPLICAR"
+        onclick="operaciones('multiplicar'); return false;"
+      /><br />
+      <input
+        type="button"
+        value="DIVIDIR"
+        onclick="operaciones('dividir'); return false;"
+      />
+      <input
+        type="button"
+        value="SQUARE"
+        onclick="operaciones('square'); return false;"
+      />
+      <input
+        type="button"
+        value="POWER"
+        onclick="operaciones('power'); return false;"
+      />
+    </form>
+    <script src="scriptuno.js"></script>
+  </body>
+</html>
